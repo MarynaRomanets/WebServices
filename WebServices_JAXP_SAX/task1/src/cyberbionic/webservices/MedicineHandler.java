@@ -42,10 +42,12 @@ public class MedicineHandler extends DefaultHandler {
             case "name": currentMedicine.setName(value); break;
             case "pharm": currentMedicine.setPharm(value); break;
             case "group": currentMedicine.setGroup(value); break;
-            case "analogs": currentAnalog = new Analogs(); break;
-            case "analog": currentAnalog.setAnalog(value);
-                currentMedicine.addAnalogs(currentAnalog); break;
-            case "versions":  break;
+            case "analogs":  break;
+            case "analog": currentAnalog = new Analogs();
+                currentAnalog.setAnalog(value);
+                currentMedicine.addAnalogs(currentAnalog);
+                 break;
+            case "versions":   break;
             case "version": currentVersion = new Versions(); break;
             case "consistention": currentVersion.setConsistention(value); break;
             case "manufacturer": currentManufacturer = new Manufacturer(); break;
@@ -79,6 +81,7 @@ public class MedicineHandler extends DefaultHandler {
                 currentManufacturer.addDosage(currentDosage);
                 currentVersion.addManufacturer(currentManufacturer);
                 currentMedicine.addVersions(currentVersion);
+                medicines.add(currentMedicine);
                 break;
             default:
         }

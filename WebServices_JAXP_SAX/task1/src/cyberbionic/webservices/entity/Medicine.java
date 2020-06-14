@@ -56,7 +56,7 @@ public class Medicine {
     }
 
     public void view() {
-        System.out.println("Medicine: ");
+        System.out.println("----Medicine: ---");
         System.out.println("name: " + name);
         System.out.println("pharm: " + pharm);
         System.out.println("group: " + group);
@@ -69,5 +69,6 @@ public class Medicine {
              versions) {
             element.view();
         }
+        System.out.println("-----------------");
     }
 }
