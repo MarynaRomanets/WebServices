@@ -20,6 +20,7 @@ public class Main {
         DocumentBuilder db = dbf.newDocumentBuilder();
         String filePath = "src/cyberbionic/webservices/medicine.xml";
         Document document = db.parse(filePath);
+
         Element root = document.getDocumentElement();
         String tag = "medicine";
         NodeList list = root.getElementsByTagName(tag);
