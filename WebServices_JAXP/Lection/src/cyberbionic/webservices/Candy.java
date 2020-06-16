@@ -1,21 +1,29 @@
 package cyberbionic.webservices;
 
 import javax.xml.bind.annotation.XmlElement;
-import java.util.Arrays;
-import java.util.List;
 
 public class Candy {
 
     private String name;
-    private List<Structure> structures;
-    private List<CandyWrapper> wrappers;
+    private Structure structures;
+    private CandyWrapper wrappers;
 
     public Candy () {
     }
 
-    public Candy ( String name, List<Structure> structures, List<CandyWrapper> wrappers ) {
+    public Candy ( String name, Structure structures, CandyWrapper wrappers ) {
         this.name = name;
         this.structures = structures;
+        this.wrappers = wrappers;
+    }
+
+    @XmlElement(name = "structure")
+    public void setStructures ( Structure structures ) {
+        this.structures = structures;
+    }
+
+    @XmlElement(name = "wrapper")
+    public void setWrappers ( CandyWrapper wrappers ) {
         this.wrappers = wrappers;
     }
 
@@ -28,18 +36,16 @@ public class Candy {
         return name;
     }
 
-    @XmlElement(name = "structure")
-    public List<Structure> getStructures () {
+    public Structure getStructures () {
         return structures;
     }
 
-    @XmlElement(name = "wrapper")
-    public List<CandyWrapper> getWrappers () {
+    public CandyWrapper getWrappers () {
         return wrappers;
     }
 
     @Override
     public String toString () {
-        return "name = " + name + Arrays.deepToString(structures.toArray()) + Arrays.deepToString(wrappers.toArray());
+        return "name = " + name + " structure = " + structures + " wrappers = " + wrappers;
     }
 }

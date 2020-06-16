@@ -1,11 +1,19 @@
 package cyberbionic.webservices;
 
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name = "structure")
 public class Structure {
     private double sugar;
     private double chocolate;
     private double nuts;
+
+    public Structure ( double sugar, double chocolate, double nuts ) {
+        this.sugar = sugar;
+        this.chocolate = chocolate;
+        this.nuts = nuts;
+    }
 
     public Structure () {
     }

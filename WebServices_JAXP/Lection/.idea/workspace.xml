@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d315985-735c-43e0-b475-3dafc8fa4dbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/CandyWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/candy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/Candy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/CandyWrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/Structure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/candy1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyberbionic/webservices/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyberbionic/webservices/CandyWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/CandyWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyberbionic/webservices/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyberbionic/webservices/Structure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cyberbionic/webservices/Structure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cyberbionic/webservices/candy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lection/cyberbionic/webservices/candy.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +31,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1dPAOoVbT4uegp071KXRE0sOerx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -54,6 +59,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,12 +76,53 @@
       <option name="presentableId" value="Default" />
       <updated>1592316325155</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;classes&quot;">
+      <created>1592321964650</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592321964650</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="&quot;classes&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;classes&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1592321909335">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1592346507163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592321909335" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592346507163" />
+    <state x="407" y="7" key="CommitChangelistDialog2" timestamp="1592321963215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1592321963215" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592347114088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592347114088" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592347114088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592347114088" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592347114088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592347114088" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592347114088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592347114088" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1592321969785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1592321969785" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592345937082">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592345937082" />
   </component>
 </project>

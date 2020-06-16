@@ -1,5 +1,9 @@
 package cyberbionic.webservices;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "wrapper")
 public class CandyWrapper {
     private String type;
     private String color;
@@ -16,6 +20,7 @@ public class CandyWrapper {
         return type;
     }
 
+    @XmlElement(name = "type")
     public void setType ( String type ) {
         this.type = type;
     }
@@ -24,6 +29,7 @@ public class CandyWrapper {
         return color;
     }
 
+    @XmlElement(name = "color")
     public void setColor ( String color ) {
         this.color = color;
     }
