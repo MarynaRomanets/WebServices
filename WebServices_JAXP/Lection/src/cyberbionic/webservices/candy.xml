@@ -1,0 +1,38 @@
+<factory>
+    <candy>
+        <name>candy1</name>
+        <structure>
+            <sugar>10.0</sugar>
+            <cacao>20.0</cacao>
+            <nuts>3.5</nuts>
+        </structure>
+        <wrapper>
+            <type>paper</type>
+            <color>red</color>
+        </wrapper>
+    </candy>
+    <candy>
+        <name>candy2</name>
+        <structure>
+            <sugar>8.0</sugar>
+            <cacao>15.0</cacao>
+            <nuts>0</nuts>
+        </structure>
+        <wrapper>
+            <type>no package</type>
+            <color>no color</color>
+        </wrapper>
+    </candy>
+    <candy>
+        <name>candy3</name>
+        <structure>
+            <sugar>no sugar</sugar>
+            <cacao>35.0</cacao>
+            <nuts>15.0</nuts>
+        </structure>
+        <wrapper>
+            <type>cellophane</type>
+            <color>white</color>
+        </wrapper>
+    </candy>
+</factory>
