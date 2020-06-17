@@ -13,15 +13,15 @@
         </wrapper>
     </candy>
     <candy>
-        <name>sweet candy</name>
+        <name>not swwet candy</name>
         <structure>
-            <chocolate>20.0</chocolate>
-            <nuts>3.0</nuts>
-            <sugar>15.0</sugar>
+            <chocolate>30.0</chocolate>
+            <nuts>30.0</nuts>
+            <sugar>1.0</sugar>
         </structure>
         <wrapper>
-            <color>white</color>
-            <type>box</type>
+            <color>brown</color>
+            <type>no box</type>
         </wrapper>
     </candy>
 </factory>
