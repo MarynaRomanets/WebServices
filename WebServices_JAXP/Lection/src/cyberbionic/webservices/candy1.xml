@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <factory>
     <candy>
+        <name>sweet candy</name>
+        <structure>
+            <chocolate>20.0</chocolate>
+            <nuts>3.0</nuts>
+            <sugar>15.0</sugar>
+        </structure>
+        <wrapper>
+            <color>white</color>
+            <type>box</type>
+        </wrapper>
+    </candy>
+    <candy>
+        <name>sweet candy</name>
         <structure>
             <chocolate>20.0</chocolate>
             <nuts>3.0</nuts>

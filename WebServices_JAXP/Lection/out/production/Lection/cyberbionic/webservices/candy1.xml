@@ -11,4 +11,15 @@
             <type>box</type>
         </wrapper>
     </candy>
+    <candy>
+        <structure>
+            <chocolate>20.0</chocolate>
+            <nuts>3.0</nuts>
+            <sugar>15.0</sugar>
+        </structure>
+        <wrapper>
+            <color>white</color>
+            <type>box</type>
+        </wrapper>
+    </candy>
 </factory>
